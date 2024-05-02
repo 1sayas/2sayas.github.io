@@ -24,7 +24,7 @@ let x = setInterval(function(){
 
 let d = Math.floor(distance / (1000 * 60 * 60 *24));
 let h = Math.floor((distance % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
-let m = Math.floor((distance % (1000 * 60 * 60)) / (100 * 60 ));
+let m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60 ));
 let s = Math.floor((distance % (1000 * 60)) / (1000));
 
 // output the result in element with id
